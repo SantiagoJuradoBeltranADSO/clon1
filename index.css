@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root {
+    --height-nav: 70px;
+    --max-width: 1200px;
+    --color-primary: #ffe001;
+    --color-white: #f2f2f2;
+    --border-radius: 12px;
+}
+:root {
+ view-transition-name: root;
+}
+
+
+
+/* //////////////////////////////////////
+////////////header///////////////////
+//////////////////////////////////// */
+
+/* header{
+    background: var(--color-black);
+    box-shadow: 0 1px 1px var(--color-black);
+    height: var(--height-nav);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    
+}
+.header__container {
+    align-items: center;
+  
+    
+}
+
+.header__logo{
+    padding-top: 8px;
+    padding-bottom: 4px;
+    
+
+}
+.logo__header{
+    width: auto;
+    height: 50px;
+    
+}
+.header__item1{
+    
+} */
+header{
+    background: var(--color-black);
+    box-shadow: 0 1px 1px var(--color-black);
+    height: var(--height-nav);
+}
+
+.logo{
+    height: 50px;
+    width: auto;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    }
+    
+      a {
+        color: inherit; /* Hereda el color del texto de su contenedor */
+        text-decoration: none; /* Elimina el subrayado */
+      }
+      .contenedor {
+        max-width: 9000px;
+        align-items: center;
+        width: 100%;
+      }
+      
+      .header__menu {
+        height: var(--height-nav);
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 1em;
+        align-items: center;
+        position: relative;
+       
+      }
+   
+    
+      .nav__item {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        margin-right: 0px;
+        font-size: 35px;
+        margin-top: 30px;
+        margin-right: 100px;
+      }
+    
+  .num{
+    position: absolute;
+    margin-top: 30px;
+    font-size: 46px;
+    font-weight: bold;
+  }
+  .txt{
+    font-size: 24px;
+  }
+
+  .imagen1{
+    position: absolute;
+    width: auto;
+    height: 80px;
+    margin-left: 250px;
+    margin-top: -34px;
+  }
