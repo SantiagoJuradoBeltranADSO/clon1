@@ -11,51 +11,16 @@
     --color-white: #f2f2f2;
     --border-radius: 12px;
 }
-:root {
- view-transition-name: root;
+
+@font-face {
+  font-family: gabelisa;
+  src: url(fuentes/gabelisa.otf);
+}
+@font-face {
+  font-family: frederick;
+  src: url(fuentes/FrederickatheGreat-Regular.ttf);
 }
 
-
-
-/* //////////////////////////////////////
-////////////header///////////////////
-//////////////////////////////////// */
-
-/* header{
-    background: var(--color-black);
-    box-shadow: 0 1px 1px var(--color-black);
-    height: var(--height-nav);
-}
-
-.container {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    
-    
-}
-.header__container {
-    align-items: center;
-  
-    
-}
-
-.header__logo{
-    padding-top: 8px;
-    padding-bottom: 4px;
-    
-
-}
-.logo__header{
-    width: auto;
-    height: 50px;
-    
-}
-.header__item1{
-    
-} */
 header{
     background: var(--color-black);
     box-shadow: 0 1px 1px var(--color-black);
@@ -94,12 +59,10 @@ header{
     
       .nav__item {
         display: flex;
-        flex-direction: row;
-        justify-content: right;
         margin-right: 0px;
         font-size: 35px;
         margin-top: 30px;
-        margin-right: 100px;
+        margin-right: 120px;
       }
     
   .num{
@@ -116,6 +79,217 @@ header{
     position: absolute;
     width: auto;
     height: 80px;
-    margin-left: 250px;
+    margin-left: 280px;
     margin-top: -34px;
   }
+
+  .nav__item_2{
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+    margin-top: 70px;
+     position: absolute;
+     font-size: 20px;
+     margin-left: -200px;
+     font-weight: 900;
+  }
+
+  .imagen_total{
+    background-image:url(imagenes/3759618.png) ;
+    background-repeat: no-repeat;
+    background-size: cover; /* Para cubrir toda la pantalla */
+    max-width: 9000px;
+    align-items: center;
+    width: 100%;
+  }
+
+
+  #inicio {
+    display: grid;
+    justify-content: top;
+    margin-top: 200px;
+    height: 80vh;
+    }
+       
+  
+.txt_nav1{
+   font-family: 'gabelisa';
+   font-size: 50px;
+     margin-left: 180px;
+  margin-top: -30px;
+}
+.txt_nav2{
+  font-size: 70px;
+  margin-left: 120px;
+  margin-top: -40px;
+  font-family: 'frederick';
+}
+.txt_nav3{
+  margin-top: -30px;
+  margin-left: 160px;
+  font-size: 25px;
+  font-weight: 900;
+
+}
+.borde{
+  border-bottom: 2px solid black;
+
+
+}
+
+.txt_nav4{
+  font-family: 'frederick';
+  margin-left:230px ;
+  font-size: 20px;
+  margin-top:-60px;
+
+}
+.txt_nav5{
+  font-family: 'frederick';
+  margin-left: 400px;
+  font-size:50px;
+  margin-top: -56px;
+}
+.contenedor_nav{
+display: grid;
+grid-template-rows: 100px 100px 100px 100px 100px
+
+}
+
+.botons{
+  margin-left:310px ;
+  margin-top: -50px;
+}
+.nav__boton{
+  border: 2px solid black; /* Borde sólido de 2px de ancho y color negro */
+  background-color: transparent; /* Establece el fondo transparente */
+  padding: 10px 20px; /* Ajusta el relleno del botón según sea necesario */
+  color: black; /* Color del texto */
+  font-size: 16px; /* Tamaño de la fuente */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+/* cards */
+
+.contenedor_card {
+  display: flex;
+  gap: 15rem;
+  padding-top: 700px;
+  padding-bottom: 90px;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  width: 300px;
+ 
+  padding: 22px;
+  flex-direction: column;
+  gap: 2rem;
+  
+  border-radius: 50px;
+ 
+}
+
+.card__title {
+
+  font-size: 25px;
+  padding: 4px 0;
+  color:var(--color-black);
+  font-weight: 900;
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.card__text {
+color:black;
+text-align: center; /* Centra el texto horizontalmente */
+}
+
+.segunda_imagen{
+  background-image:url(imagenes/segunda.png) ;
+  background-repeat: no-repeat;
+  background-size: cover; /* Para cubrir toda la pantalla */
+  max-width: 9000px;
+  align-items: center;
+  width: 100%;
+}
+.uno_card{
+margin-top: 80px;
+position: absolute;
+margin-left: 650px;
+
+}
+.dos_card{
+  display: flex;
+  margin-top: 150px;
+position: absolute;
+margin-left: 100px;
+
+}
+.card_item_1{
+  position: relative;
+   font-family: 'frederick';
+   font-size: 30px;
+
+}
+
+.dos_txt_card{
+  text-align: center;
+  font-size: 17.5px;
+ 
+}
+.card_boton{
+  border: none; /* Borde sólido de 2px de ancho y color negro */
+  background-color: transparent; /* Establece el fondo transparente */
+  color: black; /* Color del texto */
+  font-size: 15px; /* Tamaño de la fuente */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  font-weight: 900;
+}
+
+/* tercera section */
+
+
+.contenedor_3{
+  grid-template-rows: 1fr 1fr;
+}
+
+.tercea_item2 {
+  display: flex;
+  width: 100%; /* Ancho del contenedor */
+  height: 50px; /* Altura del contenedor */
+  margin-top: 1000px;
+  justify-content: center; /* Centra los puntos horizontalmente */
+  align-items: center; /* Centra los puntos verticalmente */
+}
+
+.punto {
+  width: 20px; /* Ancho de los puntos */
+  height: 20px; /* Altura de los puntos */
+  border: 2px solid black; /* Borde negro */
+  border-radius: 50%; /* Forma redonda */
+  margin: 0 5px; /* Margen horizontal entre los puntos */
+
+}
+
+.punto-amarillo {
+  background-color: yellow; /* Color amarillo para el punto en la mitad */
+  border: 2px solid black; /* Borde negro */
+}
+
+
+.tercera_item1{
+  display: grid;
+  justify-content: center; /* Centra los puntos horizontalmente */
+  align-items: center; /* Centra los puntos verticalmente */
+  width: 100%; /* Ancho del contenedor */
+  height: 50px; /* Altura del contenedor */
+}
+.imagen_3 {
+  background-image: url(imagenes/este.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  margin-top: -100px;
+
+
+ 
+}
