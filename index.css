@@ -696,11 +696,13 @@ a {
     flex-direction: column;
     margin-left: 170px;
   }
-
   .bola1 {
-    height: 234px;
-    margin-top: -1999px;
+    height: 224px;
+    margin-top: -999px;
   }
+.bola2 {
+    margin-top: -233px;
+}
   .segunda_imagen {
     padding-bottom: -100px;
     max-width: 9000px;
@@ -809,10 +811,8 @@ a {
     margin-top: -70px;
     justify-content: center;
     align-items: center;
-   margin-left:8% ; 
-
+    margin-left: 8%;
   }
-  
 
   .punto {
     width: 13px;
