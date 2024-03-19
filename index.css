@@ -732,7 +732,7 @@ a {
   .tercea_item2 {
     display: flex;
     width: 100%;
-    height: 50px;
+    height: 1px;
     margin-top: 83px;
     justify-content: center;
     align-items: center;
@@ -747,12 +747,7 @@ a {
     position: relative;
     margin-top: -500px;
   }
-  .cuarta {
-    display: flex;
-    margin-top: -733px;
-    justify-content: center;
-    align-items: center;
-  }
+
   .txt_nav4 {
     margin-left: 100px;
   }
@@ -763,23 +758,46 @@ a {
     margin-left: 218px;
   }
   .imagen_total {
-    width: 105%;
+    width: 110%;
   }
-
   .imagen_3 {
     background-image: url(imagenes/este.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 96vh;
-    width: 105%;
+    width: 110%;
     margin-top: 300px;
   }
   .segunda_imagen {
     padding-bottom: -100px;
     max-width: 9000px;
     align-items: center;
-    width: 105%;
+    width: 110%;
     margin-top: 413px;
     /* padding-top: 203px; */
+  }
+  .imagen_5 {
+    width: 110%;
+  }
+.cuarta {
+    display: flex;
+    margin-top: -673px;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1 {
+    display: flex;
+    margin-top: -115px;
+    justify-content: center;
+    align-items: center;
+}
+
+  .punto {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin: 0 5px;
+    margin-top: 200px;
   }
 }
