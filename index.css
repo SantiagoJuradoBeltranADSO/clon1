@@ -732,7 +732,7 @@ a {
     display: flex;
     width: 100%;
     height: 1px;
-    margin-top: 83px;
+    margin-top: 70px;
     justify-content: center;
     align-items: center;
   }
@@ -788,11 +788,12 @@ a {
   }
   .cuarta {
     display: flex;
-    margin-top: -490px;
+    margin-top: -470px;
     justify-content: center;
     align-items: center;
     font-size: 15px;
     text-align: center;
+    margin-left: 153px;
   }
   .imagen_4 {
     background-image: url(imagenes/galeria.png);
