@@ -809,7 +809,10 @@ a {
     margin-top: -70px;
     justify-content: center;
     align-items: center;
+   margin-left:8% ; 
+
   }
+  
 
   .punto {
     width: 13px;
