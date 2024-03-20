@@ -451,8 +451,11 @@ a {
 }
 /* tablet */
 
-@media screen and (max-width: 1370px) {
- 
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .img2 {
+    margin-top: 220px;
+    margin-left: 600px;
+  }
   .imagen_4 {
     background-image: url(imagenes/galeria.png);
     background-repeat: no-repeat;
@@ -482,6 +485,9 @@ a {
   .bola1 {
     height: 490px;
   }
+}
+
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
   .tercea_item2 {
     display: flex;
     width: 100%;
@@ -509,7 +515,7 @@ a {
 
   .img2 {
     margin-top: 220px;
-    margin-left: 590px;
+    margin-left: 600px;
   }
   .imagen_4 {
     background-image: url(imagenes/galeria.png);
