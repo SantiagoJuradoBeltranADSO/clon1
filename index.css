@@ -676,11 +676,14 @@ a {
     position: absolute;
     margin-top: 13px;
   }
-  .txt3 {
-    margin-top: 335px;
-    margin-left: 344px;
+.txt3 {
+    margin-top: 282px;
+    margin-left: 372px;
     color: var(--color-white);
-  }
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 450px; */
+}
 
   .textolargo {
     position: absolute;
